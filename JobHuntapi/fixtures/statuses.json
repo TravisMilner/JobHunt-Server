@@ -1,0 +1,30 @@
+[
+    {
+        "model": "JobHuntapi.status",
+        "pk": 1,
+        "fields": {
+            "label": "Interviewed"
+        }
+    },
+    {
+        "model": "JobHuntapi.status",
+        "pk": 2,
+        "fields": {
+            "label": "Waiting to hear"
+        }
+    },
+    {
+        "model": "JobHuntapi.status",
+        "pk": 3,
+        "fields": {
+            "label": "Rejected"
+        }
+    },
+    {
+        "model": "JobHuntapi.status",
+        "pk": 4,
+        "fields": {
+            "label": "Withdrawn"
+        }
+    }
+]

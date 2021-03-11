@@ -1,0 +1,14 @@
+[
+    {
+        "model": "JobHuntapi.job",
+        "pk": 1,
+        "fields": {
+            "name": "Tennessee WildLife Resource Agency",
+            "date_of_app": "2021-02-02",
+            "status": 1,
+            "notes": "I bombed the interview, but I learned a lot!",
+             "link": "http://www.tn.gov",
+            "user": 1
+        }
+    }
+]

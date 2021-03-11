@@ -1,0 +1,29 @@
+[
+    {
+        "model": "JobHuntapi.company",
+        "pk": 1,
+        "fields": {
+            "name": "Tennessee Wildlife Resource Agency",
+            "notes": "Make sure you know your programming vocabulary for this interview",
+            "user": 1
+        }
+    },
+    {
+        "model": "JobHuntapi.company",
+        "pk": 2,
+        "fields": {
+            "name": "Built",
+            "notes": "Recently went on a pretty big hiring spree.",
+            "user": 1
+        }
+    },
+    {
+        "model": "JobHuntapi.company",
+        "pk": 3,
+        "fields": {
+            "name": "Blue Ion",
+            "notes": "Super awesome company out of South Carolina. Great designs",
+            "user": 1
+        }
+    }
+]

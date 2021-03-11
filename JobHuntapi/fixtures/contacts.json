@@ -1,0 +1,62 @@
+[
+    {
+        "model": "JobHuntapi.contact",
+        "pk": 1,
+        "fields": {
+            "name": "John Donery",
+            "company": "John's Auto App World",
+            "email": "whoisjondon@jondon.com",
+            "phone_number": "555-555-5555",
+            "notes": "Never met the guy, but he def exists",
+            "user": 1
+        }
+    },
+    {
+        "model": "JobHuntapi.contact",
+        "pk": 2,
+        "fields": {
+            "name": "Kyle Simmons",
+            "company": "Designs and More",
+            "email": "kyle@kyle.com",
+            "phone_number": "555-555-5555",
+            "notes": "The best front end designer I know",
+            "user": 1
+        }
+    },
+    {
+        "model": "JobHuntapi.contact",
+        "pk": 3,
+        "fields": {
+            "name": "Mario Campopiano",
+            "company": "Needles and Eggs",
+            "email": "mario@mario.com",
+            "phone_number": "555-555-5555",
+            "notes": "Super smart, hates needles and eggs",
+            "user": 1
+        }
+    },
+    {
+        "model": "JobHuntapi.contact",
+        "pk": 4,
+        "fields": {
+            "name": "Silas Lowe",
+            "company": "The Beetles and More",
+            "email": "silas@silas.com",
+            "phone_number": "555-555-5555",
+            "notes": "Is def Paul's brother",
+            "user": 1
+        }
+    },
+    {
+        "model": "JobHuntapi.contact",
+        "pk": 5,
+        "fields": {
+            "name": "Devin Kent",
+            "company": "Robotics and More",
+            "email": "devin@devin.com",
+            "phone_number": "555-555-5555",
+            "notes": "He is a robot. No doubt",
+            "user": 1
+        }
+    }
+]
