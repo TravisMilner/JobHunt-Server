@@ -8,7 +8,7 @@
             "email": "whoisjondon@jondon.com",
             "phone_number": "555-555-5555",
             "notes": "Never met the guy, but he def exists",
-            "user": 1
+            "user": "fa2eba9be8282d595c997ee5cd49f2ed31f65bed"
         }
     },
     {
@@ -20,7 +20,7 @@
             "email": "kyle@kyle.com",
             "phone_number": "555-555-5555",
             "notes": "The best front end designer I know",
-            "user": 1
+            "user": "fa2eba9be8282d595c997ee5cd49f2ed31f65bed"
         }
     },
     {
@@ -32,7 +32,7 @@
             "email": "mario@mario.com",
             "phone_number": "555-555-5555",
             "notes": "Super smart, hates needles and eggs",
-            "user": 1
+            "user": "fa2eba9be8282d595c997ee5cd49f2ed31f65bed"
         }
     },
     {
@@ -44,7 +44,7 @@
             "email": "silas@silas.com",
             "phone_number": "555-555-5555",
             "notes": "Is def Paul's brother",
-            "user": 1
+            "user": "fa2eba9be8282d595c997ee5cd49f2ed31f65bed"
         }
     },
     {
@@ -56,7 +56,7 @@
             "email": "devin@devin.com",
             "phone_number": "555-555-5555",
             "notes": "He is a robot. No doubt",
-            "user": 1
+            "user": "fa2eba9be8282d595c997ee5cd49f2ed31f65bed"
         }
     }
 ]

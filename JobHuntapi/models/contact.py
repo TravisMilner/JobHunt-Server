@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import User
+from rest_framework.authtoken.models import Token
 
 class Contact(models.Model):
     name = models.CharField(max_length=255)
@@ -7,4 +7,4 @@ class Contact(models.Model):
     email = models.CharField(max_length=255)
     phone_number = models.CharField(max_length=20)
     notes = models.CharField(max_length=300)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(Token, on_delete=models.CASCADE)
