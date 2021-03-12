@@ -1,5 +1,6 @@
 from django.db import models
-from django.contrib.auth.models import User
+
+from rest_framework.authtoken.models import Token
 
 
 class Job(models.Model):
@@ -8,4 +9,4 @@ class Job(models.Model):
     status = models.ForeignKey("Status", on_delete=models.CASCADE)
     notes = models.CharField(max_length= 255)
     link = models.URLField(max_length=500, null=True)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(Token, on_delete=models.CASCADE)
