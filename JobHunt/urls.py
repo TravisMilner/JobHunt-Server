@@ -14,6 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
+from JobHuntapi.views.statuses import AllStatuses
 from JobHuntapi.views.contacts import AllContacts
 from JobHuntapi.views.companies import AllCompanies
 from JobHuntapi.views import AllJobs
@@ -26,6 +27,7 @@ router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'jobs', AllJobs, 'job')
 router.register(r'companies', AllCompanies, 'company')
 router.register(r'contacts', AllContacts, 'contact')
+router.register(r'statuses', AllStatuses, 'status')
 
 urlpatterns = [
     path('', include(router.urls)),
