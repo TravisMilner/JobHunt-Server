@@ -42,7 +42,7 @@ class AllCompanies(ViewSet):
 
     def list(self, request):
 
-        companies = Company.objects.all()
+        companies = Company.objects.filter(user=request.auth)
 
         serializer = CompanySerializer(companies, many = True, context = {'request': request})
         return Response(serializer.data)

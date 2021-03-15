@@ -52,7 +52,7 @@ class AllJobs(ViewSet):
 
     def list(self, request):
 
-        jobs = Job.objects.all()
+        jobs = Job.objects.filter(user=request.auth)
 
 
         serializer = JobSerializer(jobs, many=True, context={'request': request})
@@ -109,3 +109,4 @@ class JobSerializer(serializers.ModelSerializer):
     class Meta:
         model = Job
         fields = ('id', 'name', 'date_of_app', 'status', 'notes', 'link', 'user')
+        depth = 1
