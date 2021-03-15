@@ -43,7 +43,7 @@ class AllContacts(ViewSet):
 
     def list(self, request):
 
-        contacts = Contact.objects.all()
+        contacts = Contact.objects.filter(user=request.auth)
 
         serializer= ContactSerializer(contacts, many= True, context = {'reqeust': request})
         return Response(serializer.data)
