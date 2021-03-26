@@ -34,6 +34,8 @@ class AllJobs(ViewSet):
 
         except ValidationError as ex:
             return Response({"reason": ex.message}, status = status.HTTP_400_BAD_REQUEST)
+        except Status.DoesNotExist as ex:
+            return Response(status = status.HTTP_404_NOT_FOUND)
 
 
     def retrieve(self, request, pk=None):
